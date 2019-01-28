@@ -8,9 +8,7 @@ def fizzbuzz(int)
   if int % 5 == 0
     output += 'Buzz'
   end
-  if output == ''
-    return int
-  else
+  if output != ''
     output
   end
 end
